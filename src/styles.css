@@ -9,10 +9,3 @@ html {
 body {
     @apply font-inter overflow-x-hidden
 }
-.btn {
-    transition: 0.7s;
-  }
-  
-  .btn:hover {
-    background-color: gray;
-  }

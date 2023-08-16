@@ -921,89 +921,82 @@ body {
   overflow-x: hidden;
   font-family: Inter, sans-serif;
 }
-.btn {
-    transition: 0.7s;
-  }
-  
-  .btn:hover {
-    background-color: gray;
-  }
-  
-  .placeholder\:text-xs::-moz-placeholder {
+
+.placeholder\:text-xs::-moz-placeholder {
   font-size: 0.75rem;
   line-height: 1rem;
 }
-  
-  .placeholder\:text-xs::placeholder {
+
+.placeholder\:text-xs::placeholder {
   font-size: 0.75rem;
   line-height: 1rem;
 }
-  
-  .placeholder\:text-gray-500::-moz-placeholder {
+
+.placeholder\:text-gray-500::-moz-placeholder {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
-  
-  .placeholder\:text-gray-500::placeholder {
+
+.placeholder\:text-gray-500::placeholder {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
-  
-  .odd\:bg-gray-50:nth-child(odd) {
+
+.odd\:bg-gray-50:nth-child(odd) {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
-  
-  .even\:bg-gray-50:nth-child(even) {
+
+.even\:bg-gray-50:nth-child(even) {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
-  
-  .hover\:border-transparent:hover {
+
+.hover\:border-transparent:hover {
   border-color: transparent;
 }
-  
-  .hover\:bg-gray-100:hover {
+
+.hover\:bg-gray-100:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
-  
-  .hover\:bg-indigo-600:hover {
+
+.hover\:bg-indigo-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(79 70 229 / var(--tw-bg-opacity));
 }
-  
-  .hover\:text-gray-900:hover {
+
+.hover\:text-gray-900:hover {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
-  
-  .hover\:text-white:hover {
+
+.hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-  
-  .focus\:outline-none:focus {
+
+.focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
-  
-  .group:hover .group-hover\:text-gray-500 {
+
+.group:hover .group-hover\:text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
-  
-  .group:hover .group-hover\:text-gray-900 {
+
+.group:hover .group-hover\:text-gray-900 {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
-  
-  .group:hover .group-hover\:text-white {
+
+.group:hover .group-hover\:text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-  
-  @media (min-width: 640px) {
+
+@media (min-width: 640px) {
 
   .sm\:flex {
     display: flex;
@@ -1046,8 +1039,8 @@ body {
     line-height: 1.25rem;
   }
 }
-  
-  @media (min-width: 768px) {
+
+@media (min-width: 768px) {
 
   .md\:mx-0 {
     margin-left: 0px;
@@ -1156,8 +1149,8 @@ body {
     line-height: 1.75rem;
   }
 }
-  
-  @media (min-width: 1024px) {
+
+@media (min-width: 1024px) {
 
   .lg\:col-span-2 {
     grid-column: span 2 / span 2;
