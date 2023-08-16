@@ -116,14 +116,15 @@
                     </div>
                     <div class="flex items-center gap-3">
                         <a href="#">
-                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <rect width="32" height="32" rx="16" fill="white" />
                                 <path
                                     d="M19 21H24L22.5951 19.5951C22.2141 19.2141 22 18.6973 22 18.1585V15C22 12.3876 20.3304 10.1651 18 9.34142V9C18 7.89543 17.1046 7 16 7C14.8954 7 14 7.89543 14 9V9.34142C11.6696 10.1651 10 12.3876 10 15V18.1585C10 18.6973 9.78595 19.2141 9.40493 19.5951L8 21H13M19 21V22C19 23.6569 17.6569 25 16 25C14.3431 25 13 23.6569 13 22V21M19 21H13"
                                     stroke="#9CA3AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                         </a>
-    
+
                         <img src="https://extraordinary-jelly-fe68d6.netlify.app/images/Avatar.png"
                             class="w-8 h-8 rounded-full object-cover">
                     </div>
@@ -364,142 +365,168 @@
                 <!-- Recent Activity -->
                 <div class="">
                     <h2 class="pb-5 md:text-xl font-bold text-gray-700">Recent Activity</h2>
-                    <div class="border-x border-b rounded-b-xl">
-                        <!-- 1 -->
-                        <div class="py-1.5 sm:py-3 px-4 md:px-6 text-xs sm:text-sm grid md:grid-cols-2 gap-2 border-b">
-                            <div class="flex gap-4">
-                                <img src="https://extraordinary-jelly-fe68d6.netlify.app/images/avatar.svg"
-                                    class="rounded-full object-contain h-10 md:h-12 w-10 md:w-12">
-                                <div class="">
-                                    <p class="line-clamp-1">Ricardo Cooper</p>
-                                    <a href="#" class="flex items-center gap-1.5 line-clamp-1 text-gray-500">
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M2.003 5.884L10 9.882L17.997 5.884C17.9674 5.37444 17.7441 4.89549 17.3728 4.54523C17.0016 4.19497 16.5104 3.99991 16 4H4C3.48958 3.99991 2.99845 4.19497 2.62718 4.54523C2.25591 4.89549 2.0326 5.37444 2.003 5.884Z"
-                                                fill="#9CA3AF" />
-                                            <path
-                                                d="M18 8.118L10 12.118L2 8.118V14C2 14.5304 2.21071 15.0391 2.58579 15.4142C2.96086 15.7893 3.46957 16 4 16H16C16.5304 16 17.0391 15.7893 17.4142 15.4142C17.7893 15.0391 18 14.5304 18 14V8.118Z"
-                                                fill="#9CA3AF" />
-                                        </svg>
+                    <div class="border-x border-b rounded-b-xl overflow-x-auto py-2">
+                        <table class="w-full">
+                            <!-- tbody -->
+                            <tbody class="text-xs sm:text-sm whitespace-nowrap">
+                                <!-- 1 -->
+                                <tr class="border-b">
+                                    <!-- 1 -->
+                                    <td class="w-1/2 py-1.5 md:py-3">
+                                        <div class="flex gap-4 px-4 lg:px-6">
+                                            <img src="https://extraordinary-jelly-fe68d6.netlify.app/images/avatar.svg"
+                                                class="rounded-full object-contain h-10 md:h-12 w-10 md:w-12">
+                                            <div class="">
+                                                <p class="line-clamp-1">Ricardo Cooper</p>
+                                                <a href="#"
+                                                    class="flex items-center gap-1.5 text-gray-500 line-clamp-1">
+                                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M2.003 5.884L10 9.882L17.997 5.884C17.9674 5.37444 17.7441 4.89549 17.3728 4.54523C17.0016 4.19497 16.5104 3.99991 16 4H4C3.48958 3.99991 2.99845 4.19497 2.62718 4.54523C2.25591 4.89549 2.0326 5.37444 2.003 5.884Z"
+                                                            fill="#9CA3AF" />
+                                                        <path
+                                                            d="M18 8.118L10 12.118L2 8.118V14C2 14.5304 2.21071 15.0391 2.58579 15.4142C2.96086 15.7893 3.46957 16 4 16H16C16.5304 16 17.0391 15.7893 17.4142 15.4142C17.7893 15.0391 18 14.5304 18 14V8.118Z"
+                                                            fill="#9CA3AF" />
+                                                    </svg>
 
-                                        ricardo.cooper@example.com
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="flex justify-between items-center">
-                                <div>
-                                    <p class="text-gray-900 line-clamp-1">
-                                        9:30 AM, January 7, 2020
-                                    </p>
-                                    <p class="flex items-center gap-1 line-clamp-1">
-                                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                                d="M10.5 18C14.9183 18 18.5 14.4183 18.5 10C18.5 5.58172 14.9183 2 10.5 2C6.08172 2 2.5 5.58172 2.5 10C2.5 14.4183 6.08172 18 10.5 18ZM14.2071 8.70711C14.5976 8.31658 14.5976 7.68342 14.2071 7.29289C13.8166 6.90237 13.1834 6.90237 12.7929 7.29289L9.5 10.5858L8.20711 9.29289C7.81658 8.90237 7.18342 8.90237 6.79289 9.29289C6.40237 9.68342 6.40237 10.3166 6.79289 10.7071L8.79289 12.7071C9.18342 13.0976 9.81658 13.0976 10.2071 12.7071L14.2071 8.70711Z"
-                                                fill="#34D399" />
-                                        </svg>
-                                        Checked in
-                                    </p>
-                                </div>
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M7.29289 14.7071C6.90237 14.3166 6.90237 13.6834 7.29289 13.2929L10.5858 10L7.29289 6.70711C6.90237 6.31658 6.90237 5.68342 7.29289 5.29289C7.68342 4.90237 8.31658 4.90237 8.70711 5.29289L12.7071 9.29289C13.0976 9.68342 13.0976 10.3166 12.7071 10.7071L8.70711 14.7071C8.31658 15.0976 7.68342 15.0976 7.29289 14.7071Z"
-                                        fill="#9CA3AF" />
-                                </svg>
-                            </div>
-                        </div>
-                        <!-- 2 -->
-                        <div class="py-1.5 sm:py-3 px-4 md:px-6 text-xs sm:text-sm grid md:grid-cols-2 gap-2 border-b">
-                            <div class="flex gap-4">
-                                <img src="https://extraordinary-jelly-fe68d6.netlify.app/images/avatar.svg"
-                                    class="rounded-full object-contain h-10 md:h-12 w-10 md:w-12">
-                                <div class="">
-                                    <p class="line-clamp-1">Ricardo Cooper</p>
-                                    <a href="#" class="flex items-center gap-1.5 text-gray-500 line-clamp-1">
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M2.003 5.884L10 9.882L17.997 5.884C17.9674 5.37444 17.7441 4.89549 17.3728 4.54523C17.0016 4.19497 16.5104 3.99991 16 4H4C3.48958 3.99991 2.99845 4.19497 2.62718 4.54523C2.25591 4.89549 2.0326 5.37444 2.003 5.884Z"
-                                                fill="#9CA3AF" />
-                                            <path
-                                                d="M18 8.118L10 12.118L2 8.118V14C2 14.5304 2.21071 15.0391 2.58579 15.4142C2.96086 15.7893 3.46957 16 4 16H16C16.5304 16 17.0391 15.7893 17.4142 15.4142C17.7893 15.0391 18 14.5304 18 14V8.118Z"
-                                                fill="#9CA3AF" />
-                                        </svg>
+                                                    ricardo.cooper@example.com
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <!-- 2 -->
+                                    <td class="w-1/2">
+                                        <div class="flex justify-between gap-4 items-center px-4 lg:px-6 ml-7 lg:ml-0">
+                                            <div>
+                                                <p class="text-gray-900 line-clamp-1">
+                                                    9:30 AM, January 7, 2020
+                                                </p>
+                                                <p class="flex items-center gap-1 line-clamp-1">
+                                                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M10.5 18C14.9183 18 18.5 14.4183 18.5 10C18.5 5.58172 14.9183 2 10.5 2C6.08172 2 2.5 5.58172 2.5 10C2.5 14.4183 6.08172 18 10.5 18ZM14.2071 8.70711C14.5976 8.31658 14.5976 7.68342 14.2071 7.29289C13.8166 6.90237 13.1834 6.90237 12.7929 7.29289L9.5 10.5858L8.20711 9.29289C7.81658 8.90237 7.18342 8.90237 6.79289 9.29289C6.40237 9.68342 6.40237 10.3166 6.79289 10.7071L8.79289 12.7071C9.18342 13.0976 9.81658 13.0976 10.2071 12.7071L14.2071 8.70711Z"
+                                                            fill="#34D399" />
+                                                    </svg>
+                                                    Checked in
+                                                </p>
+                                            </div>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M7.29289 14.7071C6.90237 14.3166 6.90237 13.6834 7.29289 13.2929L10.5858 10L7.29289 6.70711C6.90237 6.31658 6.90237 5.68342 7.29289 5.29289C7.68342 4.90237 8.31658 4.90237 8.70711 5.29289L12.7071 9.29289C13.0976 9.68342 13.0976 10.3166 12.7071 10.7071L8.70711 14.7071C8.31658 15.0976 7.68342 15.0976 7.29289 14.7071Z"
+                                                    fill="#9CA3AF" />
+                                            </svg>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- 2 -->
+                                <tr class="border-b">
+                                    <!-- 1 -->
+                                    <td class="w-1/2 py-1.5 md:py-3">
+                                        <div class="flex gap-4 px-4 lg:px-6">
+                                            <img src="https://extraordinary-jelly-fe68d6.netlify.app/images/avatar.svg"
+                                                class="rounded-full object-contain h-10 md:h-12 w-10 md:w-12">
+                                            <div class="">
+                                                <p class="line-clamp-1">Ricardo Cooper</p>
+                                                <a href="#"
+                                                    class="flex items-center gap-1.5 text-gray-500 line-clamp-1">
+                                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M2.003 5.884L10 9.882L17.997 5.884C17.9674 5.37444 17.7441 4.89549 17.3728 4.54523C17.0016 4.19497 16.5104 3.99991 16 4H4C3.48958 3.99991 2.99845 4.19497 2.62718 4.54523C2.25591 4.89549 2.0326 5.37444 2.003 5.884Z"
+                                                            fill="#9CA3AF" />
+                                                        <path
+                                                            d="M18 8.118L10 12.118L2 8.118V14C2 14.5304 2.21071 15.0391 2.58579 15.4142C2.96086 15.7893 3.46957 16 4 16H16C16.5304 16 17.0391 15.7893 17.4142 15.4142C17.7893 15.0391 18 14.5304 18 14V8.118Z"
+                                                            fill="#9CA3AF" />
+                                                    </svg>
 
-                                        ricardo.cooper@example.com
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="flex justify-between items-center">
-                                <div>
-                                    <p class="text-gray-900 line-clamp-1">
-                                        9:30 AM, January 7, 2020
-                                    </p>
-                                    <p class="flex items-center gap-1 line-clamp-1">
-                                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                                d="M10.5 18C14.9183 18 18.5 14.4183 18.5 10C18.5 5.58172 14.9183 2 10.5 2C6.08172 2 2.5 5.58172 2.5 10C2.5 14.4183 6.08172 18 10.5 18ZM14.2071 8.70711C14.5976 8.31658 14.5976 7.68342 14.2071 7.29289C13.8166 6.90237 13.1834 6.90237 12.7929 7.29289L9.5 10.5858L8.20711 9.29289C7.81658 8.90237 7.18342 8.90237 6.79289 9.29289C6.40237 9.68342 6.40237 10.3166 6.79289 10.7071L8.79289 12.7071C9.18342 13.0976 9.81658 13.0976 10.2071 12.7071L14.2071 8.70711Z"
-                                                fill="#34D399" />
-                                        </svg>
-                                        Checked in
-                                    </p>
-                                </div>
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M7.29289 14.7071C6.90237 14.3166 6.90237 13.6834 7.29289 13.2929L10.5858 10L7.29289 6.70711C6.90237 6.31658 6.90237 5.68342 7.29289 5.29289C7.68342 4.90237 8.31658 4.90237 8.70711 5.29289L12.7071 9.29289C13.0976 9.68342 13.0976 10.3166 12.7071 10.7071L8.70711 14.7071C8.31658 15.0976 7.68342 15.0976 7.29289 14.7071Z"
-                                        fill="#9CA3AF" />
-                                </svg>
-                            </div>
-                        </div>
-                        <!-- 3 -->
-                        <div class="py-1.5 sm:py-3 px-4 md:px-6 text-xs sm:text-sm grid md:grid-cols-2 gap-2">
-                            <div class="flex gap-4">
-                                <img src="https://extraordinary-jelly-fe68d6.netlify.app/images/avatar.svg"
-                                    class="rounded-full object-contain h-10 md:h-12 w-10 md:w-12">
-                                <div class="">
-                                    <p class="line-clamp-1">Ricardo Cooper</p>
-                                    <a href="#" class="flex items-center gap-1.5 text-gray-500 line-clamp-1">
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M2.003 5.884L10 9.882L17.997 5.884C17.9674 5.37444 17.7441 4.89549 17.3728 4.54523C17.0016 4.19497 16.5104 3.99991 16 4H4C3.48958 3.99991 2.99845 4.19497 2.62718 4.54523C2.25591 4.89549 2.0326 5.37444 2.003 5.884Z"
-                                                fill="#9CA3AF" />
-                                            <path
-                                                d="M18 8.118L10 12.118L2 8.118V14C2 14.5304 2.21071 15.0391 2.58579 15.4142C2.96086 15.7893 3.46957 16 4 16H16C16.5304 16 17.0391 15.7893 17.4142 15.4142C17.7893 15.0391 18 14.5304 18 14V8.118Z"
-                                                fill="#9CA3AF" />
-                                        </svg>
+                                                    ricardo.cooper@example.com
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <!-- 2 -->
+                                    <td class="w-1/2">
+                                        <div class="flex justify-between gap-4 items-center px-4 lg:px-6 ml-7 lg:ml-0">
+                                            <div>
+                                                <p class="text-gray-900 line-clamp-1">
+                                                    9:30 AM, January 7, 2020
+                                                </p>
+                                                <p class="flex items-center gap-1 line-clamp-1">
+                                                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M10.5 18C14.9183 18 18.5 14.4183 18.5 10C18.5 5.58172 14.9183 2 10.5 2C6.08172 2 2.5 5.58172 2.5 10C2.5 14.4183 6.08172 18 10.5 18ZM14.2071 8.70711C14.5976 8.31658 14.5976 7.68342 14.2071 7.29289C13.8166 6.90237 13.1834 6.90237 12.7929 7.29289L9.5 10.5858L8.20711 9.29289C7.81658 8.90237 7.18342 8.90237 6.79289 9.29289C6.40237 9.68342 6.40237 10.3166 6.79289 10.7071L8.79289 12.7071C9.18342 13.0976 9.81658 13.0976 10.2071 12.7071L14.2071 8.70711Z"
+                                                            fill="#34D399" />
+                                                    </svg>
+                                                    Checked in
+                                                </p>
+                                            </div>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M7.29289 14.7071C6.90237 14.3166 6.90237 13.6834 7.29289 13.2929L10.5858 10L7.29289 6.70711C6.90237 6.31658 6.90237 5.68342 7.29289 5.29289C7.68342 4.90237 8.31658 4.90237 8.70711 5.29289L12.7071 9.29289C13.0976 9.68342 13.0976 10.3166 12.7071 10.7071L8.70711 14.7071C8.31658 15.0976 7.68342 15.0976 7.29289 14.7071Z"
+                                                    fill="#9CA3AF" />
+                                            </svg>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- 3 -->
+                                <tr class="">
+                                    <!-- 1 -->
+                                    <td class="w-1/2 py-1.5 md:py-3">
+                                        <div class="flex gap-4 px-4 lg:px-6">
+                                            <img src="https://extraordinary-jelly-fe68d6.netlify.app/images/avatar.svg"
+                                                class="rounded-full object-contain h-10 md:h-12 w-10 md:w-12">
+                                            <div class="">
+                                                <p class="line-clamp-1">Ricardo Cooper</p>
+                                                <a href="#"
+                                                    class="flex items-center gap-1.5 text-gray-500 line-clamp-1">
+                                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M2.003 5.884L10 9.882L17.997 5.884C17.9674 5.37444 17.7441 4.89549 17.3728 4.54523C17.0016 4.19497 16.5104 3.99991 16 4H4C3.48958 3.99991 2.99845 4.19497 2.62718 4.54523C2.25591 4.89549 2.0326 5.37444 2.003 5.884Z"
+                                                            fill="#9CA3AF" />
+                                                        <path
+                                                            d="M18 8.118L10 12.118L2 8.118V14C2 14.5304 2.21071 15.0391 2.58579 15.4142C2.96086 15.7893 3.46957 16 4 16H16C16.5304 16 17.0391 15.7893 17.4142 15.4142C17.7893 15.0391 18 14.5304 18 14V8.118Z"
+                                                            fill="#9CA3AF" />
+                                                    </svg>
 
-                                        ricardo.cooper@example.com
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="flex justify-between items-center">
-                                <div>
-                                    <p class="text-gray-900 line-clamp-1">
-                                        9:30 AM, January 7, 2020
-                                    </p>
-                                    <p class="flex items-center gap-1 line-clamp-1">
-                                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                                d="M10.5 18C14.9183 18 18.5 14.4183 18.5 10C18.5 5.58172 14.9183 2 10.5 2C6.08172 2 2.5 5.58172 2.5 10C2.5 14.4183 6.08172 18 10.5 18ZM14.2071 8.70711C14.5976 8.31658 14.5976 7.68342 14.2071 7.29289C13.8166 6.90237 13.1834 6.90237 12.7929 7.29289L9.5 10.5858L8.20711 9.29289C7.81658 8.90237 7.18342 8.90237 6.79289 9.29289C6.40237 9.68342 6.40237 10.3166 6.79289 10.7071L8.79289 12.7071C9.18342 13.0976 9.81658 13.0976 10.2071 12.7071L14.2071 8.70711Z"
-                                                fill="#34D399" />
-                                        </svg>
-                                        Checked in
-                                    </p>
-                                </div>
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M7.29289 14.7071C6.90237 14.3166 6.90237 13.6834 7.29289 13.2929L10.5858 10L7.29289 6.70711C6.90237 6.31658 6.90237 5.68342 7.29289 5.29289C7.68342 4.90237 8.31658 4.90237 8.70711 5.29289L12.7071 9.29289C13.0976 9.68342 13.0976 10.3166 12.7071 10.7071L8.70711 14.7071C8.31658 15.0976 7.68342 15.0976 7.29289 14.7071Z"
-                                        fill="#9CA3AF" />
-                                </svg>
-                            </div>
-                        </div>
+                                                    ricardo.cooper@example.com
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <!-- 2 -->
+                                    <td class="w-1/2">
+                                        <div class="flex justify-between gap-4 items-center px-4 lg:px-6 ml-7 lg:ml-0">
+                                            <div>
+                                                <p class="text-gray-900 line-clamp-1">
+                                                    9:30 AM, January 7, 2020
+                                                </p>
+                                                <p class="flex items-center gap-1 line-clamp-1">
+                                                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M10.5 18C14.9183 18 18.5 14.4183 18.5 10C18.5 5.58172 14.9183 2 10.5 2C6.08172 2 2.5 5.58172 2.5 10C2.5 14.4183 6.08172 18 10.5 18ZM14.2071 8.70711C14.5976 8.31658 14.5976 7.68342 14.2071 7.29289C13.8166 6.90237 13.1834 6.90237 12.7929 7.29289L9.5 10.5858L8.20711 9.29289C7.81658 8.90237 7.18342 8.90237 6.79289 9.29289C6.40237 9.68342 6.40237 10.3166 6.79289 10.7071L8.79289 12.7071C9.18342 13.0976 9.81658 13.0976 10.2071 12.7071L14.2071 8.70711Z"
+                                                            fill="#34D399" />
+                                                    </svg>
+                                                    Checked in
+                                                </p>
+                                            </div>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M7.29289 14.7071C6.90237 14.3166 6.90237 13.6834 7.29289 13.2929L10.5858 10L7.29289 6.70711C6.90237 6.31658 6.90237 5.68342 7.29289 5.29289C7.68342 4.90237 8.31658 4.90237 8.70711 5.29289L12.7071 9.29289C13.0976 9.68342 13.0976 10.3166 12.7071 10.7071L8.70711 14.7071C8.31658 15.0976 7.68342 15.0976 7.29289 14.7071Z"
+                                                    fill="#9CA3AF" />
+                                            </svg>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
                 <!-- box-2 -->
@@ -545,7 +572,7 @@
                         <!-- table-desctop -->
                         <table class="text-left w-full">
                             <!-- thead -->
-                            <thead class="border-b-2 uppercase font-medium text-gray-500">
+                            <thead class="border-b uppercase font-medium text-gray-500">
                                 <tr class="text-xs">
                                     <th class="px-8 md:px-6 py-2 md:py-4">Name</th>
                                     <th class="px-8 md:px-6 py-2 md:py-4">Parent</th>
